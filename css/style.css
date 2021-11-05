@@ -3,3 +3,16 @@
 body {
   font-family: 'PT Sans', sans-serif;
 }
+
+/* read css unit */
+/* rem : everything related to font ize of element  */
+
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.container-center{
+  max-width: 600px;
+  margin: auto;
+}

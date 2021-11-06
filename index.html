@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Adarsh Balika component website.</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
@@ -33,10 +33,14 @@
   <h2>@container</h2>
 
   <h3>fluid container</h3>
-  <div class="container">This is a fluid container and it will go till the end of the page</div>
+  <div class="container">
+    This is a fluid container and it will go till the end of the page
+  </div>
 
   <h3>centered container</h3>
-  <div class="container container-center">This is centered container and it will go till the specified width.</div>
+  <div class="container container-center">
+    This is centered container and it will go till the specified width.
+  </div>
   <hr />
 
   <h2>@links</h2>
@@ -75,7 +79,6 @@
 
   <h2>@nav</h2>
   <nav class="navigation container">
-
     <div class="nav-brand">iAmBrand</div>
     <ul class="nav-pills">
       <li class="list-item-inline">
@@ -95,29 +98,56 @@
   <header class="hero">
     <img class="hero-img" src="images/hero2.svg" />
     <!-- color code :#60A5FA #1D4ED8 -->
-    <h1 class="hero-heading">adarsh balika the <span style=color:var(--primary-color) class="heading-inverted">web developer</span></h1>
+    <h1 class="hero-heading">
+      adarsh balika the
+      <span style="color: var(--primary-color)" class="heading-inverted">web developer</span>
+    </h1>
   </header>
   <hr />
 
   <h2>@section</h2>
 
-  <section>
-    <h3>white section</h3>
-    <p>This will have white background.</p>
+  <section class="section">
+    <div class="container container-center">
+      <h1>white section</h1>
+      <p>
+        We are an open community of developers building resources for a better
+        Web, regardless of brand, browser, or platform. Anyone can contribute
+        and each person who does makes us stronger. Together we can continue
+        to drive innovation on the Web to serve the greater good. It starts
+        here, with you.
+      </p>
+    </div>
   </section>
-  <section>
-    <h3>off white section</h3>
-    <p>This will have gray background.</p>
+
+  <section class="section off-white">
+    <div class="container container-center">
+      <h1>off white section</h1>
+      <p>
+        We are an open community of developers building resources for a better
+        Web, regardless of brand, browser, or platform. Anyone can contribute
+        and each person who does makes us stronger. Together we can continue
+        to drive innovation on the Web to serve the greater good. It starts
+        here, with you.
+      </p>
+    </div>
   </section>
+
   <hr />
 
   <h2>@footer</h2>
-  <footer>
-    <div>Some small heading inside footer</div>
+  <footer class="footer">
+    <div class="footer-header">Some small heading inside footer</div>
     <ul>
-      <li>socialone</li>
-      <li>socialtwo</li>
-      <li>socialthree</li>
+      <li class="list-item-inline">
+        <a class="link" href="/">socialOne</a>
+      </li>
+      <li class="list-item-inline">
+        <a class="link" href="/">socialTwo</a>
+      </li>
+      <li class="list-item-inline">
+        <a class="link" href="/">socialThree</a>
+      </li>
     </ul>
   </footer>
 </body>
